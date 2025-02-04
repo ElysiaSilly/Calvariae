@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "retraction_level=unretracted": {
+      "model": "calvariae:block/sculk/fuzz/unretracted"
+    },
+    "retraction_level=partially_retracted": {
+      "model": "calvariae:block/sculk/fuzz/partially_retracted"
+    },
+    "retraction_level=retracted": {
+      "model": "calvariae:block/sculk/fuzz/retracted"
+    }
+  }
+}

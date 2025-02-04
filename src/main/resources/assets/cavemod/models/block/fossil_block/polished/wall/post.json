@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_wall_post",
-  "textures": {
-    "wall": "cavemod:block/fossil_block/polished"
-  }
-}

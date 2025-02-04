@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "calvariae:block/stone/bricks/cracked/slab/bottom"
+    },
+    "type=double": {
+      "model": "calvariae:block/stone/bricks/cracked/planks"
+    },
+    "type=top": {
+      "model": "calvariae:block/stone/bricks/cracked/slab/top"
+    }
+  }
+}

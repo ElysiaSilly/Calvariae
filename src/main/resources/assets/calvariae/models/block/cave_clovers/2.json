@@ -1,0 +1,52 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"ambientocclusion": false,
+	"render_type": "cutout",
+	"textures": {
+		"bottom_layer": "calvariae:block/cave_clovers/bottom_layer",
+		"stalk": "calvariae:block/cave_clovers/stalks",
+		"particle": "calvariae:block/cave_clovers/top_layer"
+	},
+	"elements": [
+		{
+			"name": "bottom_layer",
+			"from": [0, 1, 0],
+			"to": [16, 1, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 1.5, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bottom_layer"}
+			}
+		},
+		{
+			"name": "top_layer",
+			"from": [0, 2, 0],
+			"to": [16, 2, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#bottom_layer"}
+			}
+		},
+		{
+			"name": "stalk",
+			"from": [8, 0, 1.8],
+			"to": [8, 16, 14.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#stalk"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#stalk"}
+			}
+		},
+		{
+			"name": "stalk",
+			"from": [8, 0, 1.8],
+			"to": [8, 16, 14.2],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#stalk"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#stalk"}
+			}
+		}
+	]
+}

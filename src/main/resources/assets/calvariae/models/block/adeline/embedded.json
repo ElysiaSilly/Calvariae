@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "calvariae:block/adeline/embedded_end",
+    "side": "calvariae:block/adeline/embedded_side"
+  }
+}

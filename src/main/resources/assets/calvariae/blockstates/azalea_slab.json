@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "calvariae:block/azalea/slab/bottom"
+    },
+    "type=double": {
+      "model": "calvariae:block/azalea/planks"
+    },
+    "type=top": {
+      "model": "calvariae:block/azalea/slab/top"
+    }
+  }
+}

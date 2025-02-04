@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "calvariae:block/wailing_stone/1"
+      },{
+        "model": "calvariae:block/wailing_stone/2"
+      },{
+        "model": "calvariae:block/wailing_stone/3"
+      }
+    ]
+  }
+}

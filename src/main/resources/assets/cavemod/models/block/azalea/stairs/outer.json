@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "cavemod:block/azalea/planks",
-    "side": "cavemod:block/azalea/planks",
-    "top": "cavemod:block/azalea/planks"
-  }
-}

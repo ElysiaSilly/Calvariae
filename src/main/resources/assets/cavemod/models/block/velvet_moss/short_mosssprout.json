@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "cross": "cavemod:block/velvet_moss/short_mosssprout"
-  }
-}

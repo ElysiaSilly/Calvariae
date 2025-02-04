@@ -1,0 +1,93 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "calvariae:block/azalea_petals",
+          "x": 90,
+          "y": 180
+        },{
+          "model": "calvariae:block/azalea_petals_tall",
+          "x": 90,
+          "y": 180
+        }
+      ],
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "calvariae:block/azalea_petals",
+          "x": 90,
+          "y": 270
+        },{
+          "model": "calvariae:block/azalea_petals_tall",
+          "x": 90,
+          "y": 270
+        }
+      ],
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "calvariae:block/azalea_petals",
+          "x": 90
+        },{
+          "model": "calvariae:block/azalea_petals_tall",
+          "x": 90
+        }
+      ],
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "calvariae:block/azalea_petals",
+          "x": 90,
+          "y": 90
+        },{
+          "model": "calvariae:block/azalea_petals_tall",
+          "x": 90,
+          "y": 90
+        }
+      ],
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "calvariae:block/azalea_petals",
+          "x": 180
+        },{
+          "model": "calvariae:block/azalea_petals_tall",
+          "x": 180
+        }
+      ],
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "calvariae:block/cave_clovers/1"
+        },
+        {
+          "model": "calvariae:block/cave_clovers/2"
+        }
+      ],
+      "when": {
+        "down": "true"
+      }
+    }
+  ]
+}

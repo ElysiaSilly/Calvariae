@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "calvariae:block/sweetwood/caramelised_bundle_side",
+    "side": "calvariae:block/sweetwood/caramelised_bundle_side"
+  }
+}

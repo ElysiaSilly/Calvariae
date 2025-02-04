@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "calvariae:block/azalea/pressure_plate/normal"
+    },
+    "powered=true": {
+      "model": "calvariae:block/azalea/pressure_plate/down"
+    }
+  }
+}

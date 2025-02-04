@@ -1,0 +1,6 @@
+{
+  "parent": "calvariae:block/base/double_cross",
+  "textures": {
+    "cross": "calvariae:block/sweetwood/tall_sweetroot_bottom"
+  }
+}

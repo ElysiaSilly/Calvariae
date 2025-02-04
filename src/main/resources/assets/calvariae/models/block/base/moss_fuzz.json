@@ -1,0 +1,21 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"render_type": "cutout",
+	"textures": {
+		"particle": "#fuzz",
+		"fuzz": "#fuzz"
+	},
+	"elements": [
+		{
+			"name": "fuzz",
+			"from": [-0.001, -15, -0.001],
+			"to": [16.001, 1, 16.001],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#fuzz", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#fuzz", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#fuzz", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#fuzz", "cullface": "west"}
+			}
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"ambientocclusion": false,
+	"render_type": "cutout",
+	"textures": {
+		"bottom": "calvariae:block/azalea/buds/bottom",
+		"stalk": "calvariae:block/azalea/buds/stalk",
+		"particle": "calvariae:block/azalea/buds/inventory"
+	},
+	"elements": [
+		{
+			"name": "flower_bottom",
+			"from": [0, 1, 0],
+			"to": [16, 1, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 1.5, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"name": "flower_top",
+			"from": [0, 2, 0],
+			"to": [16, 2, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#bottom"}
+			}
+		},
+		{
+			"name": "stalk",
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#stalk"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#stalk"}
+			}
+		},
+		{
+			"name": "stalk",
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#stalk"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#stalk"}
+			}
+		}
+	]
+}

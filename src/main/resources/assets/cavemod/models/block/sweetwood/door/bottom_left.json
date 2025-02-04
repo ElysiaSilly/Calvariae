@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_left",
-  "textures": {
-    "bottom": "cavemod:block/sweetwood/door/bottom",
-    "top": "cavemod:block/sweetwood/door/top"
-  }
-}

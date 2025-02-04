@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "calvariae:block/stone/polished/normal/slab/bottom"
+    },
+    "type=double": {
+      "model": "calvariae:block/stone/polished/normal/planks"
+    },
+    "type=top": {
+      "model": "calvariae:block/stone/polished/normal/slab/top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "calvariae:block/stone/stone/mossy/slab/bottom"
+    },
+    "type=double": {
+      "model": "calvariae:block/stone/stone/mossy/planks"
+    },
+    "type=top": {
+      "model": "calvariae:block/stone/stone/mossy/slab/top"
+    }
+  }
+}

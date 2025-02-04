@@ -24,13 +24,13 @@
         },
         {
           "data": {
-            "Name": "cavemod:short_mosssprout"
+            "Name": "calvariae:short_mosssprout"
           },
           "weight": 50
         },
         {
           "data": {
-            "Name": "cavemod:flowering_mosssprout",
+            "Name": "calvariae:flowering_mosssprout",
             "Properties": {
               "half": "lower"
             }

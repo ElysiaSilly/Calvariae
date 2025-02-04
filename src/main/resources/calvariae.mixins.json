@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.elysiasilly.calvariae.mixin.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "${mod_id}.refmap.json",
+  "mixins": [
+    "client.SkyLightEngineMixin",
+    "common.BlockMixin",
+    "common.GrowingPlantBlockMixin",
+    "common.IBlockExtensionMixin",
+    "common.SporeBlossomBlockMixin"
+  ],
+  "client": [
+    "client.LightTextureMixin"
+  ],
+  "minVersion": "0.8"
+}

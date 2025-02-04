@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "calvariae:block/sanctuary/large_bush_bottom"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sanctuary/large_bush_top"
+      }
+    }
+  ]
+}

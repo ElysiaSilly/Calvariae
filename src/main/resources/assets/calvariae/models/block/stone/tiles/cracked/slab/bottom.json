@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "calvariae:block/stone/tiles_cracked",
+    "side": "calvariae:block/stone/tiles_cracked",
+    "top": "calvariae:block/stone/tiles_cracked"
+  }
+}

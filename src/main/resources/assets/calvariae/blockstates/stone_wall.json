@@ -1,0 +1,90 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "calvariae:block/stone/stone/normal/wall/post"
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/stone/stone/normal/wall/side",
+        "uvlock": true
+      },
+      "when": {
+        "north": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/stone/stone/normal/wall/side",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/stone/stone/normal/wall/side",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/stone/stone/normal/wall/side",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/stone/stone/normal/wall/side_tall",
+        "uvlock": true
+      },
+      "when": {
+        "north": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/stone/stone/normal/wall/side_tall",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/stone/stone/normal/wall/side_tall",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/stone/stone/normal/wall/side_tall",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "tall"
+      }
+    }
+  ]
+}

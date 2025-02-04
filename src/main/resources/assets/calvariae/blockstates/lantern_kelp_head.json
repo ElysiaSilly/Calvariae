@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "bulb=true": {
+      "model": "calvariae:block/lantern_kelp/attached"
+    },
+    "bulb=false": {
+      "model": "calvariae:block/lantern_kelp/head"
+    }
+  }
+}

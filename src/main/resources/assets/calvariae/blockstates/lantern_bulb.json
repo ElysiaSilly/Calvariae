@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=true": {
+      "model": "calvariae:block/lantern_kelp/bulb_active"
+    },
+    "active=false": {
+      "model": "calvariae:block/lantern_kelp/bulb"
+    }
+  }
+}

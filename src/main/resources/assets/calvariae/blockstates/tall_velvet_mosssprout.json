@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "calvariae:block/velvet_moss/tall_mosssprout_bottom"
+    },
+    "half=upper": {
+      "model": "calvariae:block/velvet_moss/tall_mosssprout_top"
+    }
+  }
+}

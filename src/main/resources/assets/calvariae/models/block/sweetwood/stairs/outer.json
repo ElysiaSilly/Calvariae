@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "calvariae:block/sweetwood/planks",
+    "side": "calvariae:block/sweetwood/planks",
+    "top": "calvariae:block/sweetwood/planks"
+  }
+}

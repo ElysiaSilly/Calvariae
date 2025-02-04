@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "calvariae:block/fossil_block/polished/slab/bottom"
+    },
+    "type=double": {
+      "model": "calvariae:block/fossil_block/polished"
+    },
+    "type=top": {
+      "model": "calvariae:block/fossil_block/polished/slab/top"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"textures": {
+		"0": "calvariae:block/sweetwood/log_side",
+		"particle": "calvariae:block/sweetwood/log_side"
+	},
+	"elements": [
+		{
+			"name": "core",
+			"from": [5, 5, 5],
+			"to": [11, 11, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 4]},
+			"faces": {
+				"down": {"uv": [5, 5, 11, 11], "texture": "#0"}
+			}
+		}
+	]
+}

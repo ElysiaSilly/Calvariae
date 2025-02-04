@@ -1,0 +1,6 @@
+{
+  "parent": "calvariae:block/base/moss_fuzz",
+  "textures": {
+    "fuzz": "minecraft:block/moss_fuzz"
+  }
+}

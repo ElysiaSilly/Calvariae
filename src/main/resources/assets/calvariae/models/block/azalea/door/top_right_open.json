@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "calvariae:block/azalea/door/bottom",
+    "top": "calvariae:block/azalea/door/top"
+  }
+}

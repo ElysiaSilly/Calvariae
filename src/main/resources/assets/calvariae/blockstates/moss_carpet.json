@@ -1,0 +1,65 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "calvariae:block/moss/carpet/2"
+      },
+      "when": {
+        "layers": "1"
+      }
+    },{
+      "apply": {
+        "model": "calvariae:block/moss/carpet/4"
+      },
+      "when": {
+        "layers": "2"
+      }
+    },{
+      "apply": {
+        "model": "calvariae:block/moss/carpet/6"
+      },
+      "when": {
+        "layers": "3"
+      }
+    },{
+      "apply": {
+        "model": "calvariae:block/moss/carpet/8"
+      },
+      "when": {
+        "layers": "4"
+      }
+    },{
+      "apply": {
+        "model": "calvariae:block/moss/carpet/10"
+      },
+      "when": {
+        "layers": "5"
+      }
+    },{
+      "apply": {
+        "model": "calvariae:block/moss/carpet/12"
+      },
+      "when": {
+        "layers": "6"
+      }
+    },{
+      "apply": {
+        "model": "calvariae:block/moss/carpet/14"
+      },
+      "when": {
+        "layers": "7"
+      }
+    },{
+      "apply": {
+        "model": "minecraft:block/moss_block"
+      },
+      "when": {
+        "layers": "8"
+      }
+    },{
+      "apply": {
+        "model": "calvariae:block/moss/fuzz"
+      }
+    }
+  ]
+}

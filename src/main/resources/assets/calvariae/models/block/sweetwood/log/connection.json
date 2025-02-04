@@ -1,0 +1,23 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"textures": {
+		"side": "calvariae:block/sweetwood/log_side",
+		"particle": "calvariae:block/sweetwood/log_end",
+		"end": "calvariae:block/sweetwood/log_end"
+	},
+	"elements": [
+		{
+			"name": "connection",
+			"from": [5, 0, 5],
+			"to": [11, 5, 11],
+			"rotation": {"angle": 0, "axis": "z", "origin": [-1, 2, 8]},
+			"faces": {
+				"north": {"uv": [5, 11, 11, 16], "texture": "#side"},
+				"east": {"uv": [5, 11, 11, 16], "texture": "#side"},
+				"south": {"uv": [5, 11, 11, 16], "texture": "#side"},
+				"west": {"uv": [5, 11, 11, 16], "texture": "#side"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#end", "cullface": "down"}
+			}
+		}
+	]
+}

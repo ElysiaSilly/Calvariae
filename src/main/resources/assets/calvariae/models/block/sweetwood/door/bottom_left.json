@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "calvariae:block/sweetwood/door/bottom",
+    "top": "calvariae:block/sweetwood/door/top"
+  }
+}

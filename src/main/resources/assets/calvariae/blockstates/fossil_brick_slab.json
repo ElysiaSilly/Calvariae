@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "calvariae:block/fossil_block/brick/slab/bottom"
+    },
+    "type=double": {
+      "model": "calvariae:block/fossil_block/brick"
+    },
+    "type=top": {
+      "model": "calvariae:block/fossil_block/brick/slab/top"
+    }
+  }
+}

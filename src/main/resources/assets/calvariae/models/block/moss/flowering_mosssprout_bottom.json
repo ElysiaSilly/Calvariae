@@ -1,0 +1,7 @@
+{
+  "parent": "calvariae:block/base/large_double_cross",
+  "textures": {
+    "left": "calvariae:block/moss/flowering_mosssprout/bottom_left",
+    "right": "calvariae:block/moss/flowering_mosssprout/bottom_right"
+  }
+}

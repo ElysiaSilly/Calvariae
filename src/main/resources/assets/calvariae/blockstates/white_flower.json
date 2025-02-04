@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "calvariae:block/sanctuary/white_flower/bottom"
+    },
+    "half=upper": {
+      "model": "calvariae:block/sanctuary/white_flower/top"
+    }
+  }
+}

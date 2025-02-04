@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "calvariae:block/sweetwood/tall_sweetroot_bottom"
+    },
+    "half=upper": {
+      "model": "calvariae:block/sweetwood/tall_sweetroot_top"
+    }
+  }
+}

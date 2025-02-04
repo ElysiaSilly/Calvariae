@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=down": [{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "x": 180
+    },{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "x": 180,
+      "y": 90
+    }],
+    "facing=east": [{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 90
+    },{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 90
+    }],
+    "facing=north": [{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "x": 90
+    },{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "x": 90
+    }],
+    "facing=south": [{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 180
+    },{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 180
+    }],
+    "facing=up": [{
+      "model": "calvariae:block/sanctuary/green_moss/shelf"
+    },{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "y": 90
+    }],
+    "facing=west": [{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 270
+    },{
+      "model": "calvariae:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 270
+    }]
+  }
+}

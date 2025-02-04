@@ -1,70 +1,103 @@
 {
 	"credit": "an ElysiaSilly creation :D",
+	"ambientocclusion": false,
+	"render_type": "cutout",
 	"textures": {
 		"base": "block/spore_blossom_base",
-		"particle": "block/spore_blossom",
-		"flower": "block/spore_blossom"
+		"petal": "block/spore_blossom_petal",
+		"particle": "block/spore_blossom_heart",
+		"heart": "block/spore_blossom_heart"
 	},
-	"render_type": "cutout",
-	"ambientocclusion": false,
 	"elements": [
 		{
-			"from": [1, 15.9, 1],
-			"to": [15, 15.9, 15],
+			"name": "base",
+			"from": [1, 0.1, 1],
+			"to": [15, 0.1, 15],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8.23097, 1.57203, 8]},
 			"faces": {
-				"up": {"uv": [1, 1, 15, 15], "texture": "#base"},
-				"down": {"uv": [1, 1, 15, 15], "texture": "#base"}
+				"up": {"uv": [1, 1, 15, 15], "rotation": 180, "texture": "#base"},
+				"down": {"uv": [1, 1, 15, 15], "rotation": 180, "texture": "#base"}
 			}
 		},
 		{
-			"from": [8, 15.7, 0],
-			"to": [22, 15.7, 16],
-			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 16, 0]},
+			"name": "petal",
+			"from": [10, -0.6, 0],
+			"to": [23, -0.6, 16],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, -1.6, 8]},
 			"faces": {
-				"up": {"uv": [0, 3.42857, 16, 16], "rotation": 90, "texture": "#flower"},
-				"down": {"uv": [0, 16, 16, 3.42857], "rotation": 270, "texture": "#flower"}
+				"up": {"uv": [0, 16, 16, 3], "rotation": 270, "texture": "#petal"},
+				"down": {"uv": [0, 3, 16, 16], "rotation": 90, "texture": "#petal"}
 			}
 		},
 		{
-			"from": [-5, 15.7, 0],
-			"to": [8, 15.7, 16],
-			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 16, 0]},
+			"name": "petal",
+			"from": [0, -0.6, -7],
+			"to": [16, -0.6, 6],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, -1.6, 8]},
 			"faces": {
-				"up": {"uv": [0, 3, 16, 16], "rotation": 270, "texture": "#flower"},
-				"down": {"uv": [0, 16, 16, 3], "rotation": 90, "texture": "#flower"}
+				"up": {"uv": [0, 16, 16, 3], "rotation": 180, "texture": "#petal"},
+				"down": {"uv": [0, 3, 16, 16], "rotation": 180, "texture": "#petal"}
 			}
 		},
 		{
-			"from": [0, 15.7, 8],
-			"to": [16, 15.7, 21],
-			"rotation": {"angle": 22.5, "axis": "x", "origin": [0, 16, 8]},
+			"name": "petal",
+			"from": [-7, -0.6, 0],
+			"to": [6, -0.6, 16],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, -1.6, 8]},
 			"faces": {
-				"up": {"uv": [16, 16, 0, 3], "texture": "#flower"},
-				"down": {"uv": [16, 3, 0, 16], "texture": "#flower"}
+				"up": {"uv": [0, 16, 16, 3], "rotation": 90, "texture": "#petal"},
+				"down": {"uv": [0, 3, 16, 16], "rotation": 270, "texture": "#petal"}
 			}
 		},
 		{
-			"from": [0, 15.7, -5],
-			"to": [16, 15.7, 8],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 16, 8]},
+			"name": "petal",
+			"from": [0, -0.6, 10],
+			"to": [16, -0.6, 23],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, -1.6, 8]},
 			"faces": {
-				"up": {"uv": [0, 3, 16, 16], "texture": "#flower"},
-				"down": {"uv": [0, 16, 16, 3], "texture": "#flower"}
+				"up": {"uv": [0, 16, 16, 3], "texture": "#petal"},
+				"down": {"uv": [0, 3, 16, 16], "texture": "#petal"}
 			}
 		},
 		{
-			"name": "no_shade",
-			"from": [6, 14, 6],
-			"to": [10, 16, 10],
-			"shade": false,
-			"rotation": {"angle": 45, "axis": "y", "origin": [8, 15, 8]},
+			"name": "heart",
+			"from": [5, 0.6, 5],
+			"to": [11, 0.6, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0.1, 0]},
 			"faces": {
-				"north": {"uv": [0, 0, 3, 1], "texture": "#flower"},
-				"east": {"uv": [0, 0, 3, 1], "texture": "#flower"},
-				"south": {"uv": [0, 0, 3, 1], "texture": "#flower"},
-				"west": {"uv": [0, 0, 3, 1], "texture": "#flower"},
-				"down": {"uv": [0.7, 0.7, 2.3, 2.3], "texture": "#flower"}
+				"up": {"uv": [0, 0, 16, 16], "texture": "#heart"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
 }

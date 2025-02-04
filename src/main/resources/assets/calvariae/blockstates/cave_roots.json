@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "part=body": {
+      "model": "calvariae:block/cave_roots"
+    },
+    "part=head": {
+      "model": "calvariae:block/cave_roots_head"
+    }
+  }
+}

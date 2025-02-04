@@ -1,0 +1,12 @@
+{
+  "values": {
+    "minecraft:carrot": {
+      "entry": "carrot",
+      "decor": "carrot"
+    },
+    "#minecraft:logs": {
+      "entry": "log",
+      "decor": ""
+    }
+  }
+}

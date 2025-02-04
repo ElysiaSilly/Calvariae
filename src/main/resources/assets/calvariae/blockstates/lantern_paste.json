@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "calvariae:block/lantern_paste",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "calvariae:block/lantern_paste",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "calvariae:block/lantern_paste",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "calvariae:block/lantern_paste",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "calvariae:block/lantern_paste"
+    },
+    "facing=west": {
+      "model": "calvariae:block/lantern_paste",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

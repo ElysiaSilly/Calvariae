@@ -1,0 +1,44 @@
+{
+  "variants": {
+    "up=true,down=false,axis=x": {
+      "model": "calvariae:block/deepslate/pillar/horizontal_bottom",
+      "y": 90
+    },
+    "up=true,down=true,axis=x": {
+      "model": "calvariae:block/deepslate/pillar/horizontal_middle",
+      "y": 90
+    },
+    "up=false,down=true,axis=x": {
+      "model": "calvariae:block/deepslate/pillar/horizontal_top",
+      "y": 90
+    },
+    "up=false,down=false,axis=x": {
+      "model": "calvariae:block/deepslate/pillar/horizontal_single",
+      "y": 90
+    },
+    "up=true,down=false,axis=y": {
+      "model": "calvariae:block/deepslate/pillar/bottom"
+    },
+    "up=true,down=true,axis=y": {
+      "model": "calvariae:block/deepslate/pillar/middle"
+    },
+    "up=false,down=true,axis=y": {
+      "model": "calvariae:block/deepslate/pillar/top"
+    },
+    "up=false,down=false,axis=y": {
+      "model": "calvariae:block/deepslate/pillar/single"
+    },
+    "up=true,down=false,axis=z": {
+      "model": "calvariae:block/deepslate/pillar/horizontal_top"
+    },
+    "up=true,down=true,axis=z": {
+      "model": "calvariae:block/deepslate/pillar/horizontal_middle"
+    },
+    "up=false,down=true,axis=z": {
+      "model": "calvariae:block/deepslate/pillar/horizontal_bottom"
+    },
+    "up=false,down=false,axis=z": {
+      "model": "calvariae:block/deepslate/pillar/horizontal_single"
+    }
+  }
+}

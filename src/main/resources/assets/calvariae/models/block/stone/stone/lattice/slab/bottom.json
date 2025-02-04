@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "calvariae:block/stone/lattice",
+    "side": "calvariae:block/stone/lattice",
+    "top": "calvariae:block/stone/lattice"
+  }
+}

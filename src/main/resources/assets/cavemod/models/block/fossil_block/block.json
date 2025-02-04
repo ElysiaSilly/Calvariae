@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "cavemod:block/fossil_block/end",
-    "side": "cavemod:block/fossil_block/side"
-  }
-}

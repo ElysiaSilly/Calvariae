@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "cavemod:block/fossil_block/bricks",
-    "side": "cavemod:block/fossil_block/bricks",
-    "top": "cavemod:block/fossil_block/bricks"
-  }
-}

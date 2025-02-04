@@ -1,0 +1,56 @@
+{
+  "variants": {
+    "facing=down,sandwich=heel": {
+      "model": "calvariae:block/adeline/rimmed_heel",
+      "x": 180
+    },
+    "facing=east,sandwich=heel": {
+      "model": "calvariae:block/adeline/rimmed_heel",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,sandwich=heel": {
+      "model": "calvariae:block/adeline/rimmed_heel",
+      "x": 90
+    },
+    "facing=south,sandwich=heel": {
+      "model": "calvariae:block/adeline/rimmed_heel",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,sandwich=heel": {
+      "model": "calvariae:block/adeline/rimmed_heel"
+    },
+    "facing=west,sandwich=heel": {
+      "model": "calvariae:block/adeline/rimmed_heel",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down,sandwich=crown": {
+      "model": "calvariae:block/adeline/rimmed_crown",
+      "x": 180
+    },
+    "facing=east,sandwich=crown": {
+      "model": "calvariae:block/adeline/rimmed_crown",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,sandwich=crown": {
+      "model": "calvariae:block/adeline/rimmed_crown",
+      "x": 90
+    },
+    "facing=south,sandwich=crown": {
+      "model": "calvariae:block/adeline/rimmed_crown",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,sandwich=crown": {
+      "model": "calvariae:block/adeline/rimmed_crown"
+    },
+    "facing=west,sandwich=crown": {
+      "model": "calvariae:block/adeline/rimmed_crown",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

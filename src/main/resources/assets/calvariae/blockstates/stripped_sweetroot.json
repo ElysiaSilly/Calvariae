@@ -1,0 +1,128 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/connection",
+        "x": 90,
+        "y": 180,
+        "uvlock": true
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/connection",
+        "x": 90,
+        "y": 270,
+        "uvlock": true
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/connection",
+        "x": 90,
+        "uvlock": true
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/connection",
+        "x": 90,
+        "y": 90,
+        "uvlock": true
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/connection",
+        "x": 180,
+        "uvlock": true
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/connection",
+        "uvlock": true
+      },
+      "when": {
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/core",
+        "x": 90,
+        "y": 180,
+        "uvlock": true
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/core",
+        "x": 90,
+        "y": 270,
+        "uvlock": true
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/core",
+        "x": 90,
+        "uvlock": true
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/core",
+        "x": 90,
+        "y": 90,
+        "uvlock": true
+      },
+      "when": {
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/core",
+        "x": 180,
+        "uvlock": true
+      },
+      "when": {
+        "up": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "calvariae:block/sweetwood/stripped_log/core",
+        "uvlock": true
+      },
+      "when": {
+        "down": "false"
+      }
+    }
+  ]
+}

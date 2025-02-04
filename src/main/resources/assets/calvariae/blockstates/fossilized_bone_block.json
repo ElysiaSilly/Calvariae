@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "calvariae:block/fossilized_bone_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "calvariae:block/fossilized_bone_block"
+    },
+    "axis=z": {
+      "model": "calvariae:block/fossilized_bone_block",
+      "x": 90
+    }
+  }
+}

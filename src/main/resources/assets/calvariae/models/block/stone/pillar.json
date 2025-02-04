@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "calvariae:block/stone/pillar_end",
+    "side": "calvariae:block/stone/pillar_side"
+  }
+}

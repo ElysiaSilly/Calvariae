@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "calvariae:block/sweetwood/slab/bottom"
+    },
+    "type=double": {
+      "model": "calvariae:block/sweetwood/planks"
+    },
+    "type=top": {
+      "model": "calvariae:block/sweetwood/slab/top"
+    }
+  }
+}

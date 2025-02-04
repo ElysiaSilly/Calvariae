@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "calvariae:velvet_moss_carpet",
+            "Properties": {
+              "layers": 1
+            }
+          },
+          "weight": 25
+        },
+        {
+          "data": {
+            "Name": "calvariae:short_velvet_mosssprout"
+          },
+          "weight": 50
+        },
+        {
+          "data": {
+            "Name": "calvariae:tall_velvet_mosssprout",
+            "Properties": {
+              "half": "lower"
+            }
+          },
+          "weight": 10
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "calvariae:block/base/pillar_horizontal",
+  "textures": {
+    "end": "calvariae:block/deepslate/pillar/end_top",
+    "side": "calvariae:block/deepslate/pillar/horizontal_middle"
+  }
+}

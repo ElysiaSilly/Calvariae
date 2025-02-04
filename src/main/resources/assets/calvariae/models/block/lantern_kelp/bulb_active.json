@@ -1,0 +1,97 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"render_type": "cutout",
+	"textures": {
+		"3": "calvariae:block/lantern_kelp/bulb/end_glow",
+		"5": "calvariae:block/lantern_kelp/bulb/extra",
+		"6": "calvariae:block/lantern_kelp/bulb/side_glow",
+		"7": "calvariae:block/lantern_kelp/bulb/end_glow",
+		"particle": "calvariae:block/lantern_kelp/bulb/side_glow"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#6", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#6", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#6", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#6", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#7", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "extra",
+			"from": [1, 0, -2],
+			"to": [1, 16, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 16]},
+			"faces": {
+				"east": {"uv": [0, 8, 10, 16], "texture": "#5"},
+				"west": {"uv": [0, 8, 10, 16], "texture": "#5"}
+			}
+		},
+		{
+			"name": "extra",
+			"from": [15, 0, -2],
+			"to": [15, 16, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 0, 16]},
+			"faces": {
+				"east": {"uv": [0, 8, 10, 16], "texture": "#5"},
+				"west": {"uv": [0, 8, 10, 16], "texture": "#5"}
+			}
+		},
+		{
+			"name": "extra",
+			"from": [-2, 0, 15],
+			"to": [18, 16, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 10, 16], "texture": "#5"},
+				"south": {"uv": [0, 8, 10, 16], "texture": "#5"}
+			}
+		},
+		{
+			"name": "extra",
+			"from": [-2, 0, 1],
+			"to": [18, 16, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 10, 16], "texture": "#5"},
+				"south": {"uv": [0, 8, 10, 16], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

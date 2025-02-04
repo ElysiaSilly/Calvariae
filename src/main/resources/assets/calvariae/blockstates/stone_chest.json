@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "sealed=true": {
+      "model": "calvariae:block/stone_chest/sealed"
+    },
+    "sealed=false": {
+      "model": "calvariae:block/stone_chest/open"
+    }
+  }
+}

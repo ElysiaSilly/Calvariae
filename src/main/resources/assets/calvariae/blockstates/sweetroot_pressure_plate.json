@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "calvariae:block/sweetwood/pressure_plate/normal"
+    },
+    "powered=true": {
+      "model": "calvariae:block/sweetwood/pressure_plate/down"
+    }
+  }
+}
